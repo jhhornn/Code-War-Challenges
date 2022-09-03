@@ -13,7 +13,22 @@
 // rgb(148, 0, 211) // returns 9400D3
 
 //Solution
-
+function rgb(r, g, b) {
+	let rgbArray = [r, g, b];
+	rgbArray.forEach((e, index) => {
+		if (e > 255) {
+			rgbArray[index] = "FF";
+		} else if (e < 0) {
+			rgbArray[index] = "00";
+		} else {
+			rgbArray[index] = Math.floor(e)
+				.toString(16)
+				.padStart(2, "0")
+				.toUpperCase();
+		}
+	});
+	return rgbArray.join("");
+}
 
 // Test Cases
 rgb(0, 0, 0)// returns "000000";
