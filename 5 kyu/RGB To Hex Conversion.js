@@ -31,7 +31,7 @@ function rgb(r, g, b) {
 }
 
 // Test Cases
-rgb(0, 0, 0)// returns "000000";
+console.log(rgb(0, 0, 0))// returns "000000";
 rgb(0, 0, -20)// returns "000000";
 rgb(300, 255, 255)// returns "FFFFFF";
 rgb(173, 255, 47)// returns "ADFF2F";
