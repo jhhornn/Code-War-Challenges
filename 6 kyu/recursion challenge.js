@@ -24,7 +24,7 @@ function recursionChallenge(num){
 			index += 3;
 		}
 	}
-	
+	return joinedArray.join("");
 }
 
 
