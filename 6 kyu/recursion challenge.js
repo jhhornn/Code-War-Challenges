@@ -18,6 +18,12 @@ function recursionChallenge(num){
 	let index = 2;
 	let joinedArray = joinedStr.split("");
 
+	for (let i = 0; i < joinedArray.length;i++) {
+		if (index == i) {
+			joinedArray[index] = "X";
+			index += 3;
+		}
+	}
 	
 }
 
