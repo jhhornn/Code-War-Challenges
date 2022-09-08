@@ -4,6 +4,16 @@
 // read through a sring a return a string with replaced 3rd value.
 
 // Solution
+function recursionChallenge(num){
+    let recursion = function (num) {
+			if (num == 0) {
+			return 1;
+		} else {
+			return num * recursion(num - 1);
+		}
+	}
+}
+
 
 // Test Cases
 recursionChallenge(6); // returns 72XxfXxaXx2X;
