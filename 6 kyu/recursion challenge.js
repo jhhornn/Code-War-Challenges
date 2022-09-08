@@ -12,6 +12,13 @@ function recursionChallenge(num){
 			return num * recursion(num - 1);
 		}
 	}
+    let cat1 = recursion(num);
+	let cat2 = "xf1xa0x28";
+	let joinedStr = cat1 + cat2;
+	let index = 2;
+	let joinedArray = joinedStr.split("");
+
+	
 }
 
 
