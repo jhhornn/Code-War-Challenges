@@ -17,3 +17,23 @@ function rightPyramid(num, symbol) {
   return pyramid
 }
 
+
+//Test Cases
+console.log(rightPyramid(5, "$"))
+// returns    
+//      $
+//     $$
+//    $$$
+//   $$$$
+//  $$$$$
+
+console.log(rightPyramid(6, "*"))
+// returns    
+//      *
+//     **
+//    ***
+//   ****
+//  *****
+// ******
+
+
